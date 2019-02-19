@@ -3,8 +3,12 @@
     package="com.nightmaredevs.cameralag">
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-feature android:name="android.hardware.camera2" />
-    <uses-feature android:name="android.hardware.camera2.CameraDevice" />
+    <uses-permission android:name="android.hardware.camera2.full"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <!--uses-feature android:name="android.hardware.camera2" -->
+    <!--uses-feature android:name="android.hardware.camera2.CameraDevice" -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
 
     <application
         android:allowBackup="true"
